@@ -1,0 +1,21 @@
+ETS(A,N,N) 
+
+Call:
+ets(y = ts_data)
+
+  Smoothing parameters:
+    alpha = 0.9999 
+
+  Initial states:
+    l = 3.4005 
+
+  sigma:  0.7973
+
+     AIC     AICc      BIC 
+47.75026 49.46455 50.42138 
+
+Training set error measures:
+                    ME      RMSE       MAE       MPE     MAPE      MASE
+Training set 0.1055291 0.7516711 0.4500386 0.7379533 10.99101 0.9445256
+                   ACF1
+Training set 0.08211411

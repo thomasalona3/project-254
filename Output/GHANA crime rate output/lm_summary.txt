@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = y ~ ds_numeric, data = data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.24286 -0.15052 -0.01182  0.09584  0.26480 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2.157e+00  2.340e-01   9.220 1.92e-08 ***
+ds_numeric  -2.428e-10  1.789e-10  -1.357    0.191    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1566 on 19 degrees of freedom
+Multiple R-squared:  0.0884,	Adjusted R-squared:  0.04042 
+F-statistic: 1.842 on 1 and 19 DF,  p-value: 0.1906
+

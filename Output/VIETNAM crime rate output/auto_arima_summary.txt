@@ -1,0 +1,9 @@
+Series: ts_data 
+ARIMA(0,1,0) 
+
+sigma^2 = 0.008:  log likelihood = 9.95
+AIC=-17.9   AICc=-17.4   BIC=-17.6
+
+Training set error measures:
+                 ME       RMSE        MAE      MPE    MAPE      MASE       ACF1
+Training set 0.0183 0.08528119 0.05466364 1.106327 4.02008 0.9110606 -0.5764688
